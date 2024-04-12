@@ -1,0 +1,17 @@
+.destaque p {
+
+    color:blue;
+
+}
+
+.destaque h2,.destaque h3 {
+
+    color:red;
+
+}
+
+
+img {
+
+    width: 500px;
+}
