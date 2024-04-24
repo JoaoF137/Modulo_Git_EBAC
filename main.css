@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container {
+    background-image:url("images/sunset-2021266_1280.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: rgb(220, 135, 7);
+    width: 100%;
+    height: 12em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+.menu h1, .menu h2 {
+    padding: 1em;
+
+}
+
+
+body {
+    background-color: blanchedalmond;
+}
+
+#imagensRetiro {
+    max-width: 50%;
+}
+
+
+.conteudoRetiro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.descricaoRetiro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1em;
+}
+
+.descricaoRetiro h2,h3 {
+    margin: 1em 0;
+}
+
+.tituloContato {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.containerContato {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.containerFormulario form {
+    display: flex;
+    flex-direction:column;
+    width: 20em;
+    margin-bottom: 0.5em;
+
+}
+
+.containerFormulario form input,.containerFormulario form textarea {
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    resize:none;
+}
+
+.containerContato ul, .containerContato li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.containerContato img {
+    max-width: 3em;
+    margin: 1em 1em;
+}
