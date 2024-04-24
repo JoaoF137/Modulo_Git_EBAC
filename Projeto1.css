@@ -1,0 +1,140 @@
+* { /* reset para zerar a configuração de espacamentos e etc de navegadores */
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    
+}
+
+
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color:white;
+    font:24px;
+    
+
+
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family:'Bungee', cursive;
+
+}
+
+.corpo_site {
+
+    display: flex;
+    flex-direction: row;
+    padding: 24px 0;
+    
+
+}
+
+.corpo_site h2, .container_contatos h2, .container_contatos h3 {
+
+    font:24px;
+    font-family:'Bungee', cursive;
+    font-weight: bold;
+    color: #182c61;
+    margin-bottom: 16px;
+    font-family:'Bungee', cursive;
+
+}
+
+
+.marcas {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+
+}
+.marcas img, .marcas li, .container_contatos img{
+    height: 27px;
+    list-style: none;
+    padding: 3px;
+
+}
+
+.corpo_site p {
+
+    margin-bottom: 8px; ;
+}
+
+.imagemloja {
+    margin-left: 20px;
+    margin-right: 32px; ;
+}
+
+.texto_corpo_site {
+
+    padding: 16px;
+
+}
+
+.container_contatos {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container_contatos form, form textarea, form button {
+    display: flex;
+    flex-direction:column;
+    width: 320px;
+    margin-bottom: 8px;
+
+}
+
+form textarea {
+
+    resize: none;
+    height: 180px;
+}
+
+.container_contatos ul,li {
+    display: flex;
+    flex-direction: space-between;
+    list-style: none;
+}
+
+
+.container_contatos form button {
+
+    background-color: #182c61;
+    color: white;
+    align-items: center;
+    vertical-align: middle;
+    font-family:'Bungee', cursive;
+
+}
+
+footer {
+    height: 80px;
+    background-color: #182c61;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+footer p {
+    margin-left: 20px;
+}
