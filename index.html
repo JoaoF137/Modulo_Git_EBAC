@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valida Numeros</title>
+
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 200px;
+        }
+
+
+        form input {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Envie um número A que seja menor que o B</h1>
+    <form id="formNumeros">
+        <label for="numeroA">Numero A</label>
+        <input type="number" required id="numeroA">
+        <label for="numeroB">Numero B</label>
+        <input type="number" required id="numeroB">
+        <button type="submit">Enviar</button>
+    </form>
+
+
+    <script>
+        const formulario = document.getElementById('formNumeros');
+        const numeroA = document.getElementById('numeroA');
+        const numeroB = document.getElementById('numeroB');
+
+        formulario.addEventListener('submit',function(e){
+        e.preventDefault();
+
+        if (numeroA.value >= numeroB.value){
+            alert('O número A deve ser menor que o B!!')
+        }
+
+
+        else {
+            alert('Número A: '+numeroA.value+' e Número B: '+numeroB.value+' enviados com sucesso!')
+
+        }
+
+    })
+    </script>
+</body>
+</html>
