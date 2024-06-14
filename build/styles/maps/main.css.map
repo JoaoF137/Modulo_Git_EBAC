@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAAA,EACI,qBACA,WACA","file":"../main.css","sourcesContent":["* {\r\n    background-color: red;\r\n    color:blue;\r\n    font-family: 'Courier New', Courier, monospace;\r\n}"]}
